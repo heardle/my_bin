@@ -26,10 +26,6 @@ HelloWorld::Application.configure do
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
-  # OLD STUFF I CHANGED VIA THE TUTORIAL
-  # Do not fallback to assets pipeline if a precompiled asset is missed.
-  # config.assets.compile = false
-
   # Do fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = true
 
