@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>HelloWorld</title>
+  <title>Hello World | Heardle</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<header>
+		<!-- We used the bootstrap grid system to format the header -->
+		<div class="col-xs-3">
+			<div class="circle">
+				<br/>
+				Ichi
+				<br/>
+				Due
+				<br/>
+				Drei
+			</div>
+		</div>
+		<div class="col-xs-4 slogan">
+			<!-- The Slogan -->
+			Making simple programs since '09'
+		</div>
+		<!-- Links -->
+		<div class="col-xs-5 links">
+			<%= link_to 'Contribute', '#' %>
+			<%= link_to 'About', '#' %>
+		</div>
+	</header>
+	<hr />
+	<br class = "clear"/>
 
 <%= yield %>
+
+<!-- Cool Cube -->
+<div id="container" style="box-sizing:border-none;">
+  <div id="cube" class="animate" style="box-sizing:border-none;">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
 
 </body>
 </html>
