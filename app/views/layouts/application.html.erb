@@ -32,10 +32,11 @@
 	<hr />
 	<br class = "clear"/>
 
-<%= yield %>
 
-<!-- Cool Cube -->
+
+<!-- Container with Footer -->
 <div id="container" style="box-sizing:border-none;">
+	<%= yield %>
   <div id="cube" class="animate" style="box-sizing:border-none;">
     <div></div>
     <div></div>
@@ -45,6 +46,20 @@
     <div></div>
   </div>
 </div>
+
+
+<div class="footer">
+	<div class="container">
+	  <div class="col-xs-6">
+        <%= link_to "Gimme another quote!", "#", :class => 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        An app crafted by some <a href="http://heardle.com">Heardle</a> dudes<br />
+        Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+      </div>
+	</div>
+</div>
+
 
 </body>
 </html>

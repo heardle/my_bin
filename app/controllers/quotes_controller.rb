@@ -6,4 +6,9 @@ class QuotesController < ApplicationController
 		#BELOW RETURNS A RANDOM QUOTE
 		@quote = Quote.order("RANDOM()").first
 	end
+
+	def new
+		#Below is for the form
+		@quote = Quote.new
+	end
 end

@@ -1,3 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+/* h1 and h2 both use the above font via Google */
+
+
+h1{
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-left:5%;
+  padding-right:5%;
+}
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+    padding-left:5%;
+  padding-right:5%;
+}
 .clear{
 	clear:both;
 }
@@ -27,11 +41,20 @@
   font-size:2.5em;
 }
 
+.footer-blurb {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  text-align:right;
+  font-size:10px;
+}
+
 .links{
 	padding-top:26px;
 }
 .links a{
 	color:black;
+	font-family: 'nobileregular', sans-serif;
+  	font-weight:bold;
 }
 links a{
 	color:black;
@@ -42,13 +65,18 @@ links a{
 header{
 	border-top: 9px solid #222222;
 }
+
 /*FOR THE HORIZONTAL LINE ON THE FRONT COVER*/
 hr{
 	color:black;
 	height:1px;
 	clear:both
 }
-
+.next-quote{
+  color:#f84342;
+  font-family: 'nobilemedium_italic', sans-serif;
+  font-size:20px;
+}
 
 /*--------------------BELOW IS FOR THE CUBE!!!!=====================>
 
